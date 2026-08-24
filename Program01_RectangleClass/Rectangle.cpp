@@ -1,5 +1,6 @@
 #include "Rectangle.h"
 
+// Rectangle class implementation
 Rectangle::Rectangle()
 {
     length = 0.0;
