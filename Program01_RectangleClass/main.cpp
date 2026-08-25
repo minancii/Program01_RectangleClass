@@ -11,13 +11,13 @@ int main()
     cout << "Width: " << r1.getWidth() << endl;
     cout << "Area: " << r1.getArea() << endl;
 
-    cout << "\nTesting negative length:" << endl;
+    cout << "\nTesting negative length (-5.0):" << endl;
     Rectangle r2(-5.0, 4.0);
     cout << "Length: " << r2.getLength() << endl;
     cout << "Width: " << r2.getWidth() << endl;
     cout << "Area: " << r2.getArea() << endl;
 
-    cout << "\nTesting negative width:" << endl;
+    cout << "\nTesting negative width (-4.0):" << endl;
     Rectangle r3(5.0, -4.0);
     cout << "Length: " << r3.getLength() << endl;
     cout << "Width: " << r3.getWidth() << endl;
